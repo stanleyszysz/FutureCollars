@@ -1,11 +1,8 @@
 package fc.introduction.lesson2.AgeVerification;
 
 import org.junit.jupiter.api.Assertions;
-//import org.junit.jupiter.api.BeforeAll;
-//import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class AgeVerificationTest {
 
@@ -14,19 +11,49 @@ class AgeVerificationTest {
         AgeVerification ageVerification = new AgeVerification();
         int value = 18;
 
-        boolean age = ageVerification.age(value);
+        String message = ageVerification.age(value);
 
-        Assertions.assertEquals(true, age);
+        Assertions.assertEquals("Adult", message);
     }
 
     @Test
-    void checkYourAgeEleven() {
+    void checkYourAgeNine() {
         AgeVerification ageVerification = new AgeVerification();
-        int value = 11;
+        int value = 9;
 
-        boolean age = ageVerification.age(value);
+        String message = ageVerification.age(value);
 
-        Assertions.assertEquals(false, age);
+        Assertions.assertEquals("Kid", message);
+    }
+
+    @Test
+    void checkYourAgeZero() {
+        AgeVerification ageVerification = new AgeVerification();
+        int value = 0;
+
+        String message = ageVerification.age(value);
+
+        Assertions.assertEquals("Error", message);
+    }
+
+    @Test
+    void checkYourAgeOneHundredFifty() {
+        AgeVerification ageVerification = new AgeVerification();
+        int value = 150;
+
+        String message = ageVerification.age(value);
+
+        Assertions.assertEquals("Error", message);
+    }
+
+    @Test
+    void checkYourAgeMinusFive() {
+        AgeVerification ageVerification = new AgeVerification();
+        int value = -5;
+
+        String message = ageVerification.age(value);
+
+        Assertions.assertEquals("Error", message);
     }
 
 }
