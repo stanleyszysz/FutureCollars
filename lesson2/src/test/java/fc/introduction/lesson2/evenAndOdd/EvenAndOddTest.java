@@ -8,42 +8,52 @@ import org.junit.jupiter.api.Test;
 class EvenAndOddTest {
 
     @Test
-    void CheckIsEven_OneHundred() {
+    void checkIsEvenOneHundred() {
         EvenAndOdd evenAndOdd = new EvenAndOdd();
         int number = 100;
 
         boolean result = evenAndOdd.even(number);
 
-        Assertions.assertEquals(true, result);
+        Assertions.assertTrue(result);
     }
 
     @Test
-    void CheckIsEven_MinusNineteen() {
+    void checkIsEven_MinusNineteen() {
         EvenAndOdd evenAndOdd = new EvenAndOdd();
         int number = -19;
 
         boolean result = evenAndOdd.even(number);
 
-        Assertions.assertEquals(false, result);
+        Assertions.assertFalse(result);
     }
 
     @Test
-    void CheckIsOdd_MinusFiftyOne() {
+    void checkIsEven_Three() {
         EvenAndOdd evenAndOdd = new EvenAndOdd();
-        int number = -51;
+        int number = 3;
 
-        boolean result = evenAndOdd.odd(number);
+        boolean result = evenAndOdd.even(number);
 
-        Assertions.assertEquals(true, result);
+        Assertions.assertFalse(result);
     }
 
     @Test
-    void CheckIsOdd_Zero() {
+    void checkIsOdd_MinusTwenty() {
+        EvenAndOdd evenAndOdd = new EvenAndOdd();
+        int number = -20;
+
+        boolean result = evenAndOdd.even(number);
+
+        Assertions.assertTrue(result);
+    }
+
+    @Test
+    void checkIsOdd_Zero() {
         EvenAndOdd evenAndOdd = new EvenAndOdd();
         int number = 0;
 
-        boolean result = evenAndOdd.odd(number);
+        boolean result = evenAndOdd.even(number);
 
-        Assertions.assertEquals(false, result);
+        Assertions.assertTrue(result);
     }
 }

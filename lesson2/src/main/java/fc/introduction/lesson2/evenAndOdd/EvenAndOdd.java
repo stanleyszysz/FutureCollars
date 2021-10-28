@@ -6,7 +6,4 @@ public class EvenAndOdd {
         return number % 2 == 0;
     }
 
-    public boolean odd(int number) {
-        return number % 2 != 0;
-    }
 }
