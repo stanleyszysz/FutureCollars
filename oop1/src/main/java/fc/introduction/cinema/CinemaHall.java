@@ -3,12 +3,23 @@ package fc.introduction.cinema;
 public class CinemaHall {
     public static void main(String[] args) {
 
-        Seating seating1 = new Seating(7, 7, false);
-        Seating seating2 = new Seating(1, 11, true);
-        Seating seating3 = new Seating(2, 11, true);
+        Seating seating = new Seating(7, 7, true);
 
-        seating1.isTaken();
-        seating2.isTaken();
-        seating3.isTaken();
+
+        if (seating.isTaken()) {
+            chooseDifferentSeat();
+        }
+        else {
+            makeReservation();
+        }
+
+    }
+
+    private static void makeReservation() {
+        System.out.println("The seat is free...");
+    }
+
+    private static void chooseDifferentSeat() {
+        System.out.println("You have to choose another seat...");
     }
 }

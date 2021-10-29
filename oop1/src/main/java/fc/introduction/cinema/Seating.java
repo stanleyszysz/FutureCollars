@@ -1,8 +1,8 @@
 package fc.introduction.cinema;
 
-public class Seating {
-    protected int seatNumber;
-    protected int rowNumber;
+class Seating {
+    private int seatNumber;
+    private int rowNumber;
     boolean taken;
 
     public Seating(int seatNumber, int rowNumber, boolean taken) {
@@ -12,12 +12,9 @@ public class Seating {
 
     }
 
-    public void isTaken() {
-        if (taken) {
-            System.out.println("The seat " + seatNumber + " in row " + rowNumber + " is taken.");
-        }
-        else {
-            System.out.println("The seat " + seatNumber + " in row " + rowNumber + " is free.");
-        }
+    public boolean isTaken() {
+        return taken;
     }
+
+
 }
