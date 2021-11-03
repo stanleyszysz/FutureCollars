@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import static fc.introduction.minutes.MinutesToSeconds.convertMinutesToSeconds;
 
-//import static org.junit.jupiter.api.Assertions.*;
 
 class MinutesToSecondsTest {
 
