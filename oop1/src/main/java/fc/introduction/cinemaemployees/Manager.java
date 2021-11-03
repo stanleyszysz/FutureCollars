@@ -3,8 +3,8 @@ package fc.introduction.cinemaemployees;
 class Manager extends BaseEmployee {
     private int bonus = 500;
 
-    Manager(String name, String surname, int yearEmployment) {
-        super(name, surname, yearEmployment, 5000);
+    Manager(String name, String surname, int yearOfEmployment) {
+        super(name, surname, yearOfEmployment, 5000);
 
     }
 
@@ -14,6 +14,6 @@ class Manager extends BaseEmployee {
 
     @Override
     public int calculateMonthlySalary() {
-        return getBASE_SALARY() + bonus;
+        return getBaseSalary() + bonus;
     }
 }

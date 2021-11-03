@@ -8,11 +8,11 @@ public class CinemaEmployees {
         TicketSeller ticketSeller1 = new TicketSeller("Mike", "Murphy", 2015);
 
         System.out.println();
-        System.out.println(manager1.calculateMonthlySalary());
-        System.out.println(manager1.getTimeEmployment());
+        System.out.println("Manager salary: " + manager1.calculateMonthlySalary());
+        System.out.println("Year of employment: " + manager1.getTimeEmployment());
         System.out.println();
-        System.out.println(ticketSeller1.calculateMonthlySalary());
-        System.out.println(ticketSeller1.getTimeEmployment());
+        System.out.println("Ticket seller salary: " + ticketSeller1.calculateMonthlySalary());
+        System.out.println("Year of employment: " + ticketSeller1.getTimeEmployment());
 
     }
 }

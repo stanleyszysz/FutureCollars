@@ -3,23 +3,23 @@ package fc.introduction.cinemaemployees;
 abstract class BaseEmployee {
     private String name;
     private String surname;
-    private final int BASE_SALARY;
-    private final int YEAR_OF_EMPLOYMENT;
+    private final int baseSalary;
+    private final int yearOfEmployment;
 
-    BaseEmployee(String name, String surname, int yearEmployment, int BASE_SALARY) {
+    BaseEmployee(String name, String surname, int yearOfEmployment, int baseSalary) {
         this.name = name;
         this.surname = surname;
-        this.YEAR_OF_EMPLOYMENT = yearEmployment;
-        this.BASE_SALARY = BASE_SALARY;
+        this.yearOfEmployment = yearOfEmployment;
+        this.baseSalary = baseSalary;
     }
 
     public abstract int calculateMonthlySalary();
 
     public int getTimeEmployment() {
-        return (2021 - YEAR_OF_EMPLOYMENT);
+        return (2021 - yearOfEmployment);
     }
 
-    public int getBASE_SALARY() {
-        return BASE_SALARY;
+    public int getBaseSalary() {
+        return baseSalary;
     }
 }
