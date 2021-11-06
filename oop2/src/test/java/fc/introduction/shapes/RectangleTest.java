@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class RectangleTest {
 
     @Test
-    void shouldCalculateArea_WidthTwoFour() {
+    void shouldCalculateArea_WidthTwoHeightFour() {
         double width = 2.0;
         double height = 4.0;
         Square rectangle = new Rectangle(width, height);
@@ -18,7 +18,7 @@ class RectangleTest {
     }
 
     @Test
-    void shouldReturnException_WidthZeroNine() {
+    void shouldReturnException_WidthZeroHeightNine() {
         double width = 0.0;
         double height = 9.0;
         Square rectangle = new Rectangle(width, height);
@@ -29,7 +29,7 @@ class RectangleTest {
     }
 
     @Test
-    void shouldCalculateArea_WidthFiveSeven() {
+    void shouldCalculateArea_WidthFiveHeightSeven() {
         double width = 5.0;
         double height = 7.0;
         Square rectangle = new Rectangle(width, height);
@@ -40,7 +40,7 @@ class RectangleTest {
     }
 
     @Test
-    void shouldReturnException_WidthThreeMinusTwo() {
+    void shouldReturnException_WidthThreeHeightMinusTwo() {
         double width = 3.0;
         double height = -2.0;
         Square rectangle = new Rectangle(width, height);
