@@ -2,7 +2,7 @@ package fc.introduction.triangle;
 
 public class RightTriangle {
 
-    static boolean triangle(int a, int b, int c) {
+    static boolean isRightTriangle(int a, int b, int c) {
         if (a > 0 && b > 0 && c > 0) {
             int sumOfTheSquares = a * a + b * b;
                 return c * c == sumOfTheSquares;
