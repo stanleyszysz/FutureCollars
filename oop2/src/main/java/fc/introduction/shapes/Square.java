@@ -1,14 +1,10 @@
 package fc.introduction.shapes;
 
 class Square extends Shape{
-    private final double width;
+    protected final double width;
 
     public Square(double width) {
         this.width = width;
-    }
-
-    public double getWidth() {
-        return width;
     }
 
     @Override

@@ -10,21 +10,21 @@ class Rectangle extends Square{
 
     @Override
     public double getArea() {
-        if (getWidth() <= 0 || height <= 0) {
+        if (width <= 0 || height <= 0) {
             throw new RuntimeException();
         }
         else {
-            return getWidth() * height;
+            return width * height;
         }
     }
 
     @Override
     public double getPerimeter() {
-        if (getWidth() <= 0 || height <= 0) {
+        if (width <= 0 || height <= 0) {
             throw new RuntimeException();
         }
         else {
-            return 2 * getWidth() + 2 * height;
+            return 2 * width + 2 * height;
         }
     }
 }
