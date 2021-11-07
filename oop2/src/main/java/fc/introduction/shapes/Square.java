@@ -12,9 +12,7 @@ class Square extends Shape{
         if (width <= 0) {
             throw new RuntimeException();
         }
-        else {
             return width * width;
-        }
     }
 
     @Override
@@ -22,8 +20,6 @@ class Square extends Shape{
         if (width <= 0) {
             throw new RuntimeException();
         }
-        else {
             return 4 * width;
-        }
     }
 }

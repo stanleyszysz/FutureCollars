@@ -14,10 +14,8 @@ class Triangle extends Shape{
         if ((sideA <= 0 || sideB <= 0 || sideC <= 0) || (sideA + sideB <= sideC)){
             throw new RuntimeException();
         }
-        else {
             double halfPerimeterTriangle = (sideA + sideB + sideC) / 2;
             return Math.sqrt(halfPerimeterTriangle * (halfPerimeterTriangle - sideA) * (halfPerimeterTriangle - sideB) * (halfPerimeterTriangle - sideC));
-        }
     }
 
     @Override
@@ -25,9 +23,6 @@ class Triangle extends Shape{
         if ((sideA <= 0 || sideB <= 0 || sideC <= 0) || (sideA + sideB <= sideC)) {
             throw new RuntimeException();
         }
-        else {
             return sideA + sideB + sideC;
-        }
-
     }
 }

@@ -13,9 +13,7 @@ class Rectangle extends Square{
         if (width <= 0 || height <= 0) {
             throw new RuntimeException();
         }
-        else {
             return width * height;
-        }
     }
 
     @Override
@@ -23,8 +21,6 @@ class Rectangle extends Square{
         if (width <= 0 || height <= 0) {
             throw new RuntimeException();
         }
-        else {
             return 2 * width + 2 * height;
-        }
     }
 }
