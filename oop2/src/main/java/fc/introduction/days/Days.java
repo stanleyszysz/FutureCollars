@@ -1,9 +1,16 @@
 package fc.introduction.days;
 
-public class Days {
+class Days {
+
     public static void main(String[] args) {
-        DayName dayName = DayName.SATURDAY;
-        System.out.println(dayName);
+        DayName dayName = DayName.SUNDAY;
+        String day = getDayName(dayName);
+        System.out.println(day);
+
+    }
+
+    public static String getDayName(DayName dayName) {
+        return dayName.toString();
     }
 
 }
