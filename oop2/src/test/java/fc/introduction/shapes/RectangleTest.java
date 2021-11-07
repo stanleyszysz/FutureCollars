@@ -18,17 +18,6 @@ class RectangleTest {
     }
 
     @Test
-    void shouldReturnException_WidthZeroHeightNine() {
-        double width = 0.0;
-        double height = 9.0;
-        Square rectangle = new Rectangle(width, height);
-
-        Assertions.assertThrows(RuntimeException.class, () -> {
-            rectangle.getArea();
-        });
-    }
-
-    @Test
     void shouldCalculateArea_WidthFiveHeightSeven() {
         double width = 5.0;
         double height = 7.0;
@@ -40,13 +29,22 @@ class RectangleTest {
     }
 
     @Test
+    void shouldReturnException_WidthZeroHeightNine() {
+        double width = 0.0;
+        double height = 9.0;
+
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            Square rectangle = new Rectangle(width, height);
+        });
+    }
+
+    @Test
     void shouldReturnException_WidthThreeHeightMinusTwo() {
         double width = 3.0;
         double height = -2.0;
-        Square rectangle = new Rectangle(width, height);
 
         Assertions.assertThrows(RuntimeException.class, () -> {
-            rectangle.getPerimeter();
+            Square rectangle = new Rectangle(width, height);
         });
     }
 

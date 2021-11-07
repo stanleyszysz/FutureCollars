@@ -16,32 +16,32 @@ class SquareTest {
     }
 
     @Test
-    void shouldReturnException_WidthZero() {
-        double width = 0.0;
+    void shouldCalculatePerimeter_WidthSeven() {
+        double width = 7.0;
         Shape square = new Square(width);
 
+        double squarePerimeter = square.getPerimeter();
+
+        Assertions.assertEquals(28, squarePerimeter);
+    }
+
+    @Test
+    void shouldReturnException_WidthZero() {
+        double width = 0.0;
+//        Shape square = new Square(width);
+
         Assertions.assertThrows(RuntimeException.class, () -> {
-            square.getArea();
+//            square.getArea();
+            Shape square = new Square(width);
         });
     }
 
-        @Test
-        void shouldCalculatePerimeter_WidthSeven() {
-            double width = 7.0;
+    @Test
+    void shouldReturnException_WidthMinusOne() {
+        double width = -1.0;
+
+        Assertions.assertThrows(RuntimeException.class, () -> {
             Shape square = new Square(width);
-
-            double squarePerimeter = square.getPerimeter();
-
-            Assertions.assertEquals(28, squarePerimeter);
-        }
-
-        @Test
-        void shouldReturnException_WidthMinusOne() {
-            double width = -1.0;
-            Shape square = new Square(width);
-
-            Assertions.assertThrows(RuntimeException.class, () -> {
-                square.getPerimeter();
-            });
-        }
+        });
+    }
 }

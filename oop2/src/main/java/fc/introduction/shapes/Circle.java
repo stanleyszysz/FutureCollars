@@ -1,25 +1,20 @@
 package fc.introduction.shapes;
 
 class Circle extends Shape {
-    private final double circleRadius;
+    private final double radius;
 
     public Circle(double circleRadius) {
-        this.circleRadius = circleRadius;
+        this.radius = circleRadius;
+        if (radius <= 0) throw new RuntimeException();
     }
 
     @Override
     public double getArea() {
-        if (circleRadius <= 0) {
-            throw new RuntimeException();
-        }
-            return Math.PI * Math.pow(circleRadius, 2);
+        return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
     public double getPerimeter() {
-        if (circleRadius <= 0) {
-            throw new RuntimeException();
-        }
-            return 2 * Math.PI * circleRadius;
+        return 2 * Math.PI * radius;
     }
 }

@@ -17,16 +17,6 @@ class CircleTest {
     }
 
     @Test
-    void shouldReturnException_RadiusZero() {
-        double circleRadius = 0.0;
-        Shape circle = new Circle(circleRadius);
-
-        Assertions.assertThrows(RuntimeException.class, () -> {
-            circle.getArea();
-        });
-    }
-
-    @Test
     void shouldCalculatePerimeter_RadiusTen() {
         double circleRadius = 10.0;
         Shape circle = new Circle(circleRadius);
@@ -37,12 +27,20 @@ class CircleTest {
     }
 
     @Test
-    void shouldReturnException_RadiusMinusTwo() {
-        double circleRadius = -2.0;
-        Shape circle = new Circle(circleRadius);
+    void shouldReturnException_RadiusZero() {
+        double radius = 0.0;
 
         Assertions.assertThrows(RuntimeException.class, () -> {
-            circle.getPerimeter();
+            Shape circle = new Circle(radius);
+        });
+    }
+
+    @Test
+    void shouldReturnException_RadiusMinusTwo() {
+        double radius = -2.0;
+
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            Shape circle = new Circle(radius);
         });
     }
 }
