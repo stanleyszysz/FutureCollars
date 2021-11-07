@@ -8,8 +8,8 @@ class CircleTest {
 
     @Test
     void shouldCalculateArea_RadiusOne() {
-        double circleRadius = 1.0;
-        Circle circle = new Circle(circleRadius);
+        double radius = 1.0;
+        Circle circle = new Circle(radius);
 
         double circleArea = circle.getArea();
 
@@ -18,8 +18,8 @@ class CircleTest {
 
     @Test
     void shouldReturnException_RadiusZero() {
-        double circleRadius = 0.0;
-        Circle circle = new Circle(circleRadius);
+        double radius = 0.0;
+        Circle circle = new Circle(radius);
 
         Assertions.assertThrows(RuntimeException.class, () -> {
             circle.getArea();
@@ -28,8 +28,8 @@ class CircleTest {
 
     @Test
     void shouldCalculatePerimeter_RadiusFivePointFive() {
-        double circleRadius = 5.5;
-        Circle circle = new Circle(circleRadius);
+        double radius = 5.5;
+        Circle circle = new Circle(radius);
 
         double circlePerimeter = circle.getPerimeter();
 
@@ -38,8 +38,8 @@ class CircleTest {
 
     @Test
     void shouldReturnException_RadiusMinusEleven() {
-        double circleRadius = -11.0;
-        Circle circle = new Circle(circleRadius);
+        double radius = -11.0;
+        Circle circle = new Circle(radius);
 
         Assertions.assertThrows(RuntimeException.class, () -> {
             circle.getPerimeter();
