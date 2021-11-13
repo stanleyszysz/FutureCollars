@@ -37,7 +37,7 @@ public class Employee {
     }
 
 
-    public String getemployeeInfo() {
+    public String getEmployeeInfo() {
         return "Employee name : " + name + WHITE_SPACE + surname;
     }
 

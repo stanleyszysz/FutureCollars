@@ -11,7 +11,7 @@ class EmployeeTest {
         //given
         Employee employee = new Employee("John", "Smith");
         //when
-        String actualEmployeeInfo = employee.getemployeeInfo();
+        String actualEmployeeInfo = employee.getEmployeeInfo();
         //then
         Assertions.assertNotNull(actualEmployeeInfo);
         Assertions.assertEquals("Employee name : John Smith", actualEmployeeInfo);
