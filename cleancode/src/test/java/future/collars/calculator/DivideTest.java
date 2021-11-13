@@ -8,9 +8,9 @@ class DivideTest {
     void shouldDivideTwoNumbers_FiveAndTwo() {
         double numberOne = 5.0;
         double numberTwo = 2.0;
-        Divide divide = new Divide(numberOne, numberTwo);
+        Calculator calculator = new Calculator();
 
-        double result = divide.getResult();
+        double result = calculator.division(numberOne, numberTwo);
 
         Assertions.assertEquals(2.5, result);
     }
@@ -19,10 +19,10 @@ class DivideTest {
     void shouldReturnException_ForNumbersFiveAndZero() {
         double numberOne = 5.0;
         double numberTwo = 0.0;
-        Divide divide = new Divide(numberOne, numberTwo);
+        Calculator calculator = new Calculator();
 
         Assertions.assertThrows(RuntimeException.class, () -> {
-            divide.getResult();
+            calculator.division(numberOne, numberTwo);
         });
     }
 

@@ -1,15 +1,9 @@
 package future.collars.calculator;
 
-class Sum extends Calculator {
-    private final double numberOne, numberTwo;
-
-    public Sum(double numberOne, double numberTwo) {
-        this.numberOne = numberOne;
-        this.numberTwo = numberTwo;
-    }
-
+class Sum extends Operation {
     @Override
-    public double getResult() {
+    public double calculate(double numberOne, double numberTwo) {
         return numberOne + numberTwo;
     }
+
 }

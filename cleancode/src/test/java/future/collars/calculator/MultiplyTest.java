@@ -8,9 +8,9 @@ class MultiplyTest {
     void shouldMultiplyTwoNumbers_ZeroAndFour() {
         double numberOne = 0.0;
         double numberTwo = 4.0;
-        Multiply multiply = new Multiply(numberOne, numberTwo);
+        Calculator calculator = new Calculator();
 
-        double result = multiply.getResult();
+        double result = calculator.multiplication(numberOne, numberTwo);
 
         Assertions.assertEquals(0.0, result);
     }

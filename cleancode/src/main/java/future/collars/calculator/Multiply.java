@@ -1,15 +1,9 @@
 package future.collars.calculator;
 
-class Multiply extends Calculator {
-    private final double numberOne, numberTwo;
-
-    public Multiply(double numberOne, double numberTwo) {
-        this.numberOne = numberOne;
-        this.numberTwo = numberTwo;
-    }
+class Multiply extends Operation {
 
     @Override
-    public double getResult() {
+    public double calculate(double numberOne, double numberTwo) {
         return numberOne * numberTwo;
     }
 }

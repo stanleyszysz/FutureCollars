@@ -1,15 +1,9 @@
 package future.collars.calculator;
 
-class Subtract extends Calculator {
-    private final double numberOne, numberTwo;
-
-    public Subtract(double numberOne, double numberTwo) {
-        this.numberOne = numberOne;
-        this.numberTwo = numberTwo;
-    }
+class Subtract extends Operation {
 
     @Override
-    public double getResult() {
+    public double calculate(double numberOne, double numberTwo) {
         return numberOne - numberTwo;
     }
 }

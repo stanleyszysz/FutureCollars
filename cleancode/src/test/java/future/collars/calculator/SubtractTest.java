@@ -8,9 +8,9 @@ class SubtractTest {
     void shouldSubtractTwoNumbers_MinusOneAndMinusNine() {
         double numberOne = -1.0;
         double numberTwo = -9.0;
-        Subtract subtract = new Subtract(numberOne, numberTwo);
+        Calculator calculator = new Calculator();
 
-        double result = subtract.getResult();
+        double result = calculator.subtraction(numberOne, numberTwo);
 
         Assertions.assertEquals(8.0, result);
     }

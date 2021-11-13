@@ -1,15 +1,9 @@
 package future.collars.calculator;
 
-class Divide extends Calculator {
-    private final double numberOne, numberTwo;
-
-    public Divide(double numberOne, double numberTwo) {
-        this.numberOne = numberOne;
-        this.numberTwo = numberTwo;
-    }
+class Divide extends Operation {
 
     @Override
-    public double getResult() {
+    public double calculate(double numberOne, double numberTwo) {
         if (numberTwo != 0) {
             return numberOne / numberTwo;
         }

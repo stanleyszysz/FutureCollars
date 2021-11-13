@@ -8,9 +8,9 @@ class SumTest {
     void shouldAddTwoNumbers_ThreeAndNine() {
         double numberOne = 3.0;
         double numberTwo = 9.0;
-        Sum sum = new Sum(numberOne, numberTwo);
+        Calculator calculator = new Calculator();
 
-        double result = sum.getResult();
+        double result = calculator.addition(numberOne, numberTwo);
 
         Assertions.assertEquals(12.0, result);
     }
