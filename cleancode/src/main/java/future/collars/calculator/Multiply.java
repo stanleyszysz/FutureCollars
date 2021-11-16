@@ -1,6 +1,6 @@
 package future.collars.calculator;
 
-class Multiply extends Operation {
+class Multiply implements Operation {
 
     @Override
     public double calculate(double numberOne, double numberTwo) {
