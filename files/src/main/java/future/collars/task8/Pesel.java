@@ -2,7 +2,7 @@ package future.collars.task8;
 
 class Pesel {
 
-    public static void checkPesel(String pesel) throws WrongTypeOfDataException, IllegalLengthException {
+    public static void checkPesel(String pesel) {
         if (!pesel.matches("\\d+?")) {
             throw new WrongTypeOfDataException("Only digits are allowed.");
         }
