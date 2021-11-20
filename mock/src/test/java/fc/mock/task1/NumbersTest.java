@@ -21,7 +21,7 @@ class NumbersTest {
     }
 
     @ParameterizedTest
-    @CsvSource(value = {"-35_353:19", "-18:9", "1000:1", "756:18", "1_200:3"}, delimiter = ':')
+    @CsvSource(value = {"-35353:19", "-18:9", "1000:1", "756:18", "1200:3"}, delimiter = ':')
     void getSumOfDigits_shouldReturnSumOfDigitsForGivenNumbers(int number, int expected) {
         assertEquals(expected, Numbers.getSumOfDigits(number));
     }
