@@ -23,21 +23,38 @@ class OwnQueueImplementationTest {
 
     @Test
     void addElement() {
-        assertEquals(0, ownQueueImplementation.element());
+        assertTrue(ownQueueImplementation.add(6));
     }
 
     @Test
     void size() {
-        assertEquals(6, ownQueueImplementation.size());
+        int[] expectedSizes = {6, 5, 4, 3, 2, 1};
+        int iterator = 0;
+        while (ownQueueImplementation.size() != 0) {
+            assertEquals(expectedSizes[iterator], ownQueueImplementation.size());
+            ownQueueImplementation.remove();
+            iterator++;
+        }
     }
 
     @Test
     void removeElement() {
-        assertEquals(0, ownQueueImplementation.remove());
+        int[] expectedElements = {0, 1, 2, 3, 4, 5};
+        int iterator = 0;
+        while (ownQueueImplementation.size() != 0) {
+            assertEquals(expectedElements[iterator], ownQueueImplementation.remove());
+            iterator++;
+        }
     }
 
     @Test
     void element() {
-        assertEquals(0, ownQueueImplementation.element());
+        int[] expectedElements = {0, 1, 2, 3, 4, 5};
+        int iterator = 0;
+        while (ownQueueImplementation.size() != 0) {
+            assertEquals(expectedElements[iterator], ownQueueImplementation.element());
+            ownQueueImplementation.remove();
+            iterator++;
+        }
     }
 }
