@@ -18,10 +18,7 @@ public class OwnMapImplementation implements OwnMap {
 
     @Override
     public boolean containsKey(String key) {
-        if (arrayString[hash(key)] != null) {
-            return true;
-        }
-        return false;
+        return arrayString[hash(key)] != null;
     }
 
     @Override
