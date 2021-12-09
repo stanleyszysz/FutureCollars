@@ -1,9 +1,10 @@
 package fc.stream.task3;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Map;
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class Cinema {
 
@@ -22,35 +23,17 @@ public class Cinema {
         List<CinemaHall> cinemaHallList = Arrays.asList(hall1, hall2, hall3, hall4, hall5, hall6, hall7, hall8, hall9,
                 hall10);
 
-        HashMap<HallType, List<CinemaHall>> hallsGroupedByHallType = groupByHallType(cinemaHallList);
+        Map<HallType, List<CinemaHall>> hallsGroupedByHallType = groupByHallType(cinemaHallList);
         System.out.println(hallsGroupedByHallType);
         System.out.println();
-        HashMap<HallType, Long> amountOfHallsGroupedByHallType = countHallType(cinemaHallList);
-        System.out.println(amountOfHallsGroupedByHallType);
+        System.out.println("Number of 2D halls is: " + hallsGroupedByHallType.get(HallType.DD).size());
+        System.out.println("Number of 3D halls is: " + hallsGroupedByHallType.get(HallType.DDD).size());
+        System.out.println("Number of 4D halls is: " + hallsGroupedByHallType.get(HallType.DDDD).size());
 
     }
 
-    public static HashMap<HallType, List<CinemaHall>> groupByHallType(List<CinemaHall> cinemaHallList) {
-        HashMap<HallType, List<CinemaHall>> resultGroup = new HashMap<>();
-        resultGroup.put(HallType.DD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DD).collect(Collectors.toList()));
-        resultGroup.put(HallType.DDD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DDD).collect(Collectors.toList()));
-        resultGroup.put(HallType.DDDD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DDDD).collect(Collectors.toList()));
-        return resultGroup;
+    public static Map<HallType, List<CinemaHall>> groupByHallType(List<CinemaHall> cinemaHallList) {
+        return cinemaHallList.stream().collect(groupingBy(CinemaHall::getHallType));
     }
-
-    public static HashMap<HallType, Long> countHallType(List<CinemaHall> cinemaHallList) {
-        HashMap<HallType, Long> resultCount = new HashMap<>();
-        resultCount.put(HallType.DD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DD).count());
-        resultCount.put(HallType.DDD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DDD).count());
-        resultCount.put(HallType.DDDD,
-                cinemaHallList.stream().filter(cinemaHall -> cinemaHall.getHallType() == HallType.DDDD).count());
-        return resultCount;
-    }
-
 
 }
