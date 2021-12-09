@@ -3,8 +3,8 @@ package fc.regex.task1;
 import java.util.Optional;
 
 public class Record {
-    String fullName, address;
-    Optional<String> phoneNumber;
+    private String fullName, address;
+    private Optional<String> phoneNumber;
 
     public String getFullName() {
         return fullName;

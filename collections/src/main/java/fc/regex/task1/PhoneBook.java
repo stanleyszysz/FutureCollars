@@ -36,7 +36,6 @@ public class PhoneBook {
 
     }
 
-    // metoda printBook
     public void printBook() {
         bookMap.forEach((k, v) -> System.out.println((k + ":" + v)));
 
