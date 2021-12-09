@@ -1,0 +1,180 @@
+Smith Kowalski, Kowalska 5
+Smith Wiśniewski, Polna 11
+Smith Kowalczyk, Słoneczna 10
+Smith Kamiński, Krótka 18
+Smith Lewandowski, Kowalska 55
+Smith Zieliński, Lipowa 14, 459687521
+Smith Szymański, Brzozowa 22, 459687521
+Smith Woźniak, Leśna 19, 459687521
+Smith Dąbrowski, Ogrodowa 5
+Smith Kozłowski, Krótka 77, 459687521
+Smith Jankowski, Szkolna 71, 459687521
+Smith Mazur, Polna 15, 459687521
+Smith Kwiatkowski, Lipowa 99, 459687521
+Smith Wojciechowski, Słoneczna 15, 459687521
+Smith Krawczyk, Leśna 12
+Smith Kaczmarek, Polna 18
+Smith Piotrowski, Krótka 33, 459687521
+Smith Grabowski, Szkolna 35, 459687521
+Johnson Kowalski, Lipowa 28, 459687521
+Johnson Wiśniewski, Polna 28, 459687521
+Johnson Kowalczyk, Szkolna 10, 459687521
+Johnson Kamiński, Słoneczna 19, 459687521
+Johnson Lewandowski, Ogrodowa 99, 459687521
+Johnson Zieliński, Krótka 88, 459687521
+Johnson Szymański, Brzozowa 33, 459687521
+Johnson Woźniak, Słoneczna 1
+Johnson Dąbrowski, Polna 2, 459687521
+Johnson Kozłowski, Leśna 4, 459687521
+Johnson Jankowski, Szkolna 6, 459687521
+Johnson Mazur, Ogrodowa 615, 459687521
+Johnson Kwiatkowski, Lipowa 915, 459687521
+Johnson Wojciechowski, Szkolna 215, 459687521
+Johnson Krawczyk, Polna 155, 459687521
+Johnson Kaczmarek, Słoneczna 155
+Johnson Piotrowski, Krótka 152, 459687521
+Johnson Grabowski, Kowalska 161
+Williams Kowalski, Krótka 133
+Williams Wiśniewski, Kowalska 125, 459687521
+Williams Kowalczyk, Brzozowa 200
+Williams Kamiński, Kowalska 177, 459687521
+Williams Lewandowski, Kowalska 215
+Williams Zieliński, Lipowa 315
+Williams Szymański, Kowalska 15
+Williams Woźniak, Ogrodowa 175
+Williams Dąbrowski, Szkolna 144, 459687521
+Williams Kozłowski, Kowalska 188
+Williams Jankowski, Słoneczna 144, 459687521
+Williams Mazur, Krótka 150, 459687521
+Williams Kwiatkowski, Brzozowa 815, 459687521
+Williams Wojciechowski, Kowalska 815
+Williams Krawczyk, Polna 65
+Williams Kaczmarek, Leśna 75
+Williams Piotrowski, Lipowa 55
+Williams Grabowski, Słoneczna 35, 459687521
+Brown Kowalski, Szkolna 68
+Brown Wiśniewski, Ogrodowa 58, 459687521
+Brown Kowalczyk, Kowalska 25, 459687521
+Brown Kamiński, Szkolna 185, 459687521
+Brown Lewandowski, Kowalska 275, 459687521
+Brown Zieliński, Lipowa 27, 459687521
+Brown Szymański, Krótka 28
+Brown Woźniak, Kowalska 29, 459687521
+Brown Dąbrowski, Lipowa 15
+Brown Kozłowski, Słoneczna 15, 459687521
+Brown Jankowski, Kowalska 15
+Brown Mazur, Kowalska 15
+Brown Kwiatkowski, Kowalska 31
+Brown Wojciechowski, Ogrodowa 32, 459687521
+Brown Krawczyk, Brzozowa 34, 459687521
+Brown Kaczmarek, Kowalska 36, 459687521
+Brown Piotrowski, Lipowa 37, 459687521
+Brown Grabowski, Krótka 15, 459687521
+Jones Kowalski, Słoneczna 15, 459687521
+Jones Wiśniewski, Szkolna 41, 459687521
+Jones Kowalczyk, Leśna 42, 459687521
+Jones Kamiński, Kowalska 43
+Jones Lewandowski, Ogrodowa 44, 459687521
+Jones Zieliński, Słoneczna 45, 459687521
+Jones Szymański, Kowalska 46, 459687521
+Jones Woźniak, Brzozowa 47, 459687521
+Jones Dąbrowski, Kowalska 48, 459687521
+Jones Kozłowski, Krótka 49, 459687521
+Jones Jankowski, Polna 15
+Jones Mazur, Kowalska 15, 459687521
+Jones Kwiatkowski, Kowalska 51, 459687521
+Jones Wojciechowski, Ogrodowa 52, 459687521
+Jones Krawczyk, Lipowa 53, 459687521
+Jones Kaczmarek, Kowalska 54
+Jones Piotrowski, Kowalska 56
+Jones Grabowski, Słoneczna 57, 459687521
+Garcia Kowalski, Szkolna 58, 459687521
+Garcia Wiśniewski, Polna 15, 459687521
+Garcia Kowalczyk, Krótka 59, 459687521
+Garcia Kamiński, Słoneczna 61, 459687521
+Garcia Lewandowski, Ogrodowa 62
+Garcia Zieliński, Brzozowa 15, 459687521
+Garcia Szymański, Kowalska 15
+Garcia Woźniak, Leśna 63, 459687521
+Garcia Dąbrowski, Szkolna 64, 459687521
+Garcia Kozłowski, Lipowa 66, 459687521
+Garcia Jankowski, Krótka 87
+Garcia Mazur, Kowalska 68, 459687521
+Garcia Kwiatkowski, Kowalska 68, 459687521
+Garcia Wojciechowski, Kowalska 69, 459687521
+Garcia Krawczyk, Ogrodowa 15
+Garcia Kaczmarek, Kowalska 15, 459687521
+Garcia Piotrowski, Kowalska 71, 459687521
+Garcia Grabowski, Szkolna 82, 459687521
+Miller Kowalski, Brzozowa 72
+Miller Wiśniewski, Krótka 73, 459687521
+Miller Kowalczyk, Polna 74, 459687521
+Miller Kamiński, Kowalska 76, 459687521
+Miller Lewandowski, Szkolna 77, 459687521
+Miller Zieliński, Ogrodowa 78, 459687521
+Miller Szymański, Lipowa 111, 459687521
+Miller Woźniak, Leśna 112, 459687521
+Miller Dąbrowski, Kowalska 113
+Miller Kozłowski, Słoneczna 114, 459687521
+Miller Jankowski, Ogrodowa 115, 459687521
+Miller Mazur, Leśna 116, 459687521
+Miller Kwiatkowski, Kowalska 117, 459687521
+Miller Wojciechowski, Brzozowa 15, 459687521
+Miller Krawczyk, Leśna 15, 459687521
+Miller Kaczmarek, Krótka 15, 459687521
+Miller Piotrowski, Kowalska 15
+Miller Grabowski, Kowalska 15
+Davis Kowalski, Kowalska 15, 459687521
+Davis Wiśniewski, Ogrodowa 15, 459687521
+Davis Kowalczyk, Szkolna 121, 459687521
+Davis Kamiński, Lipowa 122
+Davis Lewandowski, Krótka 123
+Davis Zieliński, Brzozowa 124, 459687521
+Davis Szymański, Kowalska 125, 459687521
+Davis Woźniak, Brzozowa 131, 459687521
+Davis Dąbrowski, Kowalska 132
+Davis Kozłowski, Szkolna 133
+Davis Jankowski, Polna 15, 459687521
+Davis Mazur, Słoneczna 15, 459687521
+Davis Kwiatkowski, Brzozowa 15
+Davis Wojciechowski, Ogrodowa 15
+Davis Krawczyk, Kowalska 15
+Davis Kaczmarek, Krótka 15
+Davis Piotrowski, Lipowa 15, 459687521
+Davis Grabowski, Kowalska 15, 459687521
+Rodriguez Kowalski, Krótka 15, 459687521
+Rodriguez Wiśniewski, Ogrodowa 15, 459687521
+Rodriguez Kowalczyk, Brzozowa 15, 459687521
+Rodriguez Kamiński, Lipowa 15, 459687521
+Rodriguez Lewandowski, Kowalska 15, 459687521
+Rodriguez Zieliński, Słoneczna 15
+Rodriguez Szymański, Szkolna 15, 459687521
+Rodriguez Woźniak, Słoneczna 15, 459687521
+Rodriguez Dąbrowski, Krótka 15, 459687521
+Rodriguez Kozłowski, Leśna 15, 459687521
+Rodriguez Jankowski, Brzozowa 15
+Rodriguez Mazur, Leśna 15, 459687521
+Rodriguez Kwiatkowski, Ogrodowa 15
+Rodriguez Wojciechowski, Kowalska 15
+Rodriguez Krawczyk, Słoneczna 15, 459687521
+Rodriguez Kaczmarek, Kowalska 15, 459687521
+Rodriguez Piotrowski, Brzozowa 15
+Rodriguez Grabowski, Leśna 15
+Martinez Kowalski, Krótka 15, 459687521
+Martinez Wiśniewski, Ogrodowa 15, 459687521
+Martinez Kowalczyk, Słoneczna 15
+Martinez Kamiński, Lipowa 15, 459687521
+Martinez Lewandowski, Szkolna 15, 459687521
+Martinez Zieliński, Kowalska 15, 459687521
+Martinez Szymański, Krótka 15, 459687521
+Martinez Woźniak, Brzozowa 15, 459687521
+Martinez Dąbrowski, Kowalska 15, 459687521
+Martinez Kozłowski, Krótka 15, 459687521
+Martinez Jankowski, Kowalska 15
+Martinez Mazur, Leśna 15, 459687521
+Martinez Kwiatkowski, Krótka 15, 459687521
+Martinez Wojciechowski, Kowalska 15, 459687521
+Martinez Krawczyk, Słoneczna 15, 459687521
+Martinez Kaczmarek, Ogrodowa 15, 459687521
+Martinez Piotrowski, Słoneczna 15, 459687521
+Martinez Grabowski, Kowalska 15
