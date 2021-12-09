@@ -32,15 +32,6 @@ public class Pizza {
         return name;
     }
 
-//    @Override
-//    public String toString() {
-//        return  name + ":" +
-//                " ingredients = " + ingredients +
-//                ", isVegan = " + isVegan +
-//                ", calories = " + calories;
-//
-//    }
-
     @Override
     public String toString() {
         return name;
